@@ -17,6 +17,7 @@ The files were intended to be used in the following order:
 - Trimmomatic_script
 - Smegmatis_Host_filtering
 - Spades_assembly
+
 The trimmomatic script removes the adapter sequences at the ends of the paired reads. 
 The Smegmatis host filter script will remove all reads that match to the host genome. 
 The Spades assembly script will assemble the reads into larger contigs, and possibly output the entire assembled genome. 
